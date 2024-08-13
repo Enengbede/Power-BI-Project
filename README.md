@@ -1,11 +1,11 @@
-# Dano Airline Passengers's Satisfaction Report
+# Dano Airline Passengers' Satisfaction Report
 
 ![](Intro_image.jpg)
 
 ## Introduction
-This is a Power BI project to analyze latest passenger survey results for **Dano Airlines**, a Uk-based airline with headquartered in London, United Kingdom, whose satisfaction rate dipped under 50% for the first time ever. The insights from this analysis is intended to aid the leadership team focus on key areas of improvement and getting back on track. 
+This is a Power BI project to analyze latest passenger survey results for **Dano Airlines**, a Uk-based airline with headquartered in London, United Kingdom, whose satisfaction rate dipped under 50% for the first time ever. The insights from this analysis are intended to aid the leadership team focus on key areas of improvement and getting back on track. 
 
-**_Disclaimer:_** _This is a dummy data set used to show case Power BI capabailities during my training._
+**_Disclaimer:_** _This is a dummy data set used to show case Power BI capabilities during my training._
 
 ## Problem Statement
 1. What is the percentage satisfaction?
@@ -27,8 +27,8 @@ The following Power BI concepts were utilized.
   
 ## Data Cleaning/Transforming
 1. Data was effectively cleaned and transformed using power query editor of Power BI. All columns were scrutinized and ensured there were no blank cells and all data were 100% valid and in the correct data type. The column for **'Arrival delay'** had one null value which was replaced with **'0'**.
-2. It was necessary to classify the ages of the passengers into groups as they had varying ages hence a new cloumn was created and labled **'Age group'**.The conditional coulmn was used to categorize the ages into seven age groups; ≤ 17, 18-24, 25-34, 35-44, 45-54, 55-64 and ≥65.
-3. Star rating is visually more pleasing to rate performance/services, therefore quick measure was used to calculate the star rating for services provided by the Airline. This was achieved by selecting the star rating option, and inputing the **'Average'** for each service as the best value, then inputed the number of stars as **'5'** and inputed the lowest star rating as **'0'** and the highest star rating as **'5'**.
+2. It was necessary to classify the ages of the passengers into groups as they had varying ages hence a new column was created and labeled **'Age group'**.The conditional column was used to categorize the ages into seven age groups; ≤ 17, 18-24, 25-34, 35-44, 45-54, 55-64 and ≥65.
+3. Star rating is visually more pleasing to rate performance/services, therefore quick measure was used to calculate the star rating for services provided by the Airline. This was achieved by selecting the star rating option, and inputting the **'Average'** for each service as the best value, then inputted the number of stars as **'5'** and inputted the lowest star rating as **'0'** and the highest star rating as **'5'**.
 
 Power Query Editor showing the quality of the data
 
@@ -53,10 +53,10 @@ The report shows the total number of passengers who participated in the survey a
 ![](Visualization_page.png)
 
 ## Insights
-- More than half (56.55%) of the customers were unsatisfied with the airline and majority (81.69%) are returning customers.
-- Approx. equal numbers of male (28,159) and female(28,269) passengers were unsatisfied with the airline.
-- Majority of passengers in age groups 17 & Below (83%)and 65 & Above (82%) were the most unsatisfied with the Airline.
-- The  Airline requires improvement in the following areas:  Ease of online Booking (2.76), In-flight Wifi Services (2.73),  Gate Location (2.98).
+- A little more than half (56.55%) of the customers were unsatisfied with the airline and majority (81.69%) are returning customers.
+- Approx. equal numbers of male (28,159) and female (28,269) passengers were unsatisfied with the airline.
+- Majority of passengers in age groups ≤ 17 (83%) and ≥65 (82%) were the most unsatisfied with the Airline.
+- The  Airline requires improvement in the following areas:  Ease of online Booking (2.76/5), In-flight Wifi Services (2.73/5),  Gate Location (2.98/5).
 
 ## Recommendations
 - Make website booking interphase user friendly for ease of use for younger and older passengers.
